@@ -8,6 +8,9 @@
     },
     {
       "path": "./packages/app-next"
+    },
+    {
+      "path": "./packages/ui-react"
     }
   ]
 }
