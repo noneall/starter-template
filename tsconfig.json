@@ -14,6 +14,14 @@
     },
     {
       "path": "./packages/theme-react"
+    },
+    {
+      "path": "./packages/storybook-host"
     }
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }
