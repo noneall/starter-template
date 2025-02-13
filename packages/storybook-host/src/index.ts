@@ -1,1 +1,1 @@
-export * from './lib/storybook-host.js';
+export * from './lib/storybook-host';

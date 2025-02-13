@@ -17,6 +17,9 @@
     },
     {
       "path": "./packages/storybook-host"
+    },
+    {
+      "path": "./@unfolio/ui-react"
     }
   ],
   "ts-node": {

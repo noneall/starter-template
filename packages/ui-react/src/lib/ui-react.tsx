@@ -1,6 +1,6 @@
 export function UiReact() {
   return (
-    <div className={styles['container']}>
+    <div>
       <h1>Welcome to UiReact!</h1>
     </div>
   );
