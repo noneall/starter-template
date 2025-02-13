@@ -11,6 +11,11 @@ const config: StorybookConfig = {
       },
     },
   },
+  refs(config, options) {
+      return {
+        
+      }
+  },
 };
 
 export default config;

@@ -20,6 +20,9 @@
     },
     {
       "path": "./@unfolio/ui-react"
+    },
+    {
+      "path": "./packages/app-next-e2e"
     }
   ],
   "ts-node": {

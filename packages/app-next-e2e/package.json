@@ -1,12 +1,12 @@
 {
-  "name": "next-app-e2e",
+  "name": "app-next-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "projectType": "application",
     "sourceRoot": "packages/app-next-e2e/src",
     "implicitDependencies": [
-      "next-app"
+      "app-next"
     ]
   }
 }

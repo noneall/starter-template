@@ -1,9 +1,9 @@
 {
-  "name": "@unfolio/next-app",
+  "name": "@unfolio/app-next",
   "version": "0.0.1",
   "private": true,
   "nx": {
-    "name": "next-app",
+    "name": "app-next",
     "projectType": "application",
     "sourceRoot": "packages/app-next",
     "tags": [
@@ -13,7 +13,7 @@
     "targets": {
       "storybook": {
         "options": {
-          "cwd": "packages/ui-react",
+          "cwd": "packages/app-next",
           "command": "storybook dev",
           "port": 4402
         },

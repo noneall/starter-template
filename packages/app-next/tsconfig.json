@@ -27,14 +27,14 @@
     "tsBuildInfoFile": "out-tsc/app-next/tsconfig.tsbuildinfo"
   },
   "include": [
-    "../../dist/packages/app-next/.next/types/**/*.ts",
-    "../../packages/app-next/.next/types/**/*.ts",
-    "next-env.d.ts",
-    "src/**/*.js",
-    "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx",
-    ".next/types/**/*.ts"
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "../../packages/app-next/.next/types/**/*.ts",
+    "../../dist/packages/app-next/.next/types/**/*.ts",
+    "../theme-react/src/**/*.js",
+    "next-env.d.ts"
   ],
   "exclude": [
     "out-tsc",
