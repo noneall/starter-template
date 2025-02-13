@@ -6,7 +6,11 @@
   "trailingComma": "es5",
   "useTabs": false,
   "singleQuote": true,
-  "plugins": ["prettier-plugin-organize-imports","prettier-plugin-tailwindcss"],
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ],
   "tailwindStylesheet": "./packages/app-next/src/app/global.css",
-  "tailwindPreserveDuplicates": true
+  "tailwindPreserveDuplicates": true,
+  "tailwindConfig": "./packages/app-next/tailwind.config.js"
 }

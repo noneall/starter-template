@@ -6,7 +6,7 @@ export default function Index() {
    */
   return (
     <div>
-      <div className="wrapper">
+      <div className="wrapper bg-white dark:bg-black">
         <div className="container">
           <div id="welcome">
             <h1>
