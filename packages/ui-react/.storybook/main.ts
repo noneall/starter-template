@@ -14,7 +14,7 @@ const config: StorybookConfig = {
   refs(config, options) {
     return {
       'app-next': {
-        title: 'Unfolio Next App',
+        title: 'starter-template Next App',
         url: 'http://localhost:4402',
       },
     };

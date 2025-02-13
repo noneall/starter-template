@@ -1,5 +1,5 @@
 {
-  "name": "@unfolio/app-next",
+  "name": "@starter-template/app-next",
   "version": "0.0.1",
   "private": true,
   "nx": {
