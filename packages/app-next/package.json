@@ -9,7 +9,19 @@
     "tags": [
       "app",
       "react"
-    ]
+    ],
+    "targets": {
+      "storybook": {
+        "options": {
+          "cwd": "packages/ui-react",
+          "command": "storybook dev",
+          "port": 4402
+        },
+        "executor": "nx:run-commands",
+        "configurations": {},
+        "parallelism": true
+      }
+    }
   },
   "dependencies": {
     "next": "~15.1.4",

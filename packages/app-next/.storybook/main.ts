@@ -7,12 +7,6 @@ const config: StorybookConfig = {
     name: '@storybook/nextjs',
     options: {},
   },
-  refs: {
-    'ui-react': {
-      title: 'React UI Library',
-      url: 'http://localhost:4402',
-    },
-  },
 };
 
 export default config;

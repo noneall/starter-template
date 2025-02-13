@@ -18,19 +18,7 @@
       "ui",
       "lib",
       "react"
-    ],
-    "targets": {
-      "storybook": {
-        "options": {
-          "cwd": "packages/ui-react",
-          "command": "storybook dev",
-          "port": 4402
-        },
-        "executor": "nx:run-commands",
-        "configurations": {},
-        "parallelism": true
-      }
-    }
+    ]
   },
   "files": [
     "dist",

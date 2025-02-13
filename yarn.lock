@@ -3231,6 +3231,13 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
+"@storybook/addon-themes@^8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-themes/-/addon-themes-8.5.5.tgz#019dc6b58a78f469c616f7d88d76ffd93116443d"
+  integrity sha512-hVqbJMpZ57ZPO/s+gmAPvZumfm/UhdyKMfF92iGA3OZuRz52iMmAflzYGCkyp6iccBSKAK/FIOPN+r7UMwFReg==
+  dependencies:
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-toolbars@8.5.4":
   version "8.5.4"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-8.5.4.tgz#6c79ed56cdc732301b41cfcc0b31f64e88e14f86"
@@ -5982,6 +5989,11 @@ chokidar@^4.0.0:
   integrity sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==
   dependencies:
     readdirp "^4.0.1"
+
+chromatic@^11.25.2:
+  version "11.25.2"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.25.2.tgz#cb93dc1332d8f6b70d97a3ef126bc6d03429d396"
+  integrity sha512-/9eQWn6BU1iFsop86t8Au21IksTRxwXAl7if8YHD05L2AbuMjClLWZo5cZojqrJHGKDhTqfrC2X2xE4uSm0iKw==
 
 chrome-trace-event@^1.0.2:
   version "1.0.4"
