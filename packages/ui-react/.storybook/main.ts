@@ -1,10 +1,10 @@
-import type { StorybookConfig } from '@storybook/nextjs';
+import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
-  stories: ['../**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
+  stories: ['../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
   addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],
   framework: {
-    name: '@storybook/nextjs',
+    name: '@storybook/react-vite',
     options: {
       builder: {
         viteConfigPath: 'vite.config.ts',
@@ -12,9 +12,12 @@ const config: StorybookConfig = {
     },
   },
   refs(config, options) {
-      return {
-        
-      }
+    return {
+      'app-next': {
+        title: 'Unfolio Next App',
+        url: 'http://localhost:4402',
+      },
+    };
   },
 };
 

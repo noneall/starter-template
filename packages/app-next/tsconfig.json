@@ -33,7 +33,6 @@
     "src/**/*.jsx",
     "../../packages/app-next/.next/types/**/*.ts",
     "../../dist/packages/app-next/.next/types/**/*.ts",
-    "../theme-react/src/**/*.js",
     "next-env.d.ts"
   ],
   "exclude": [

@@ -7,8 +7,9 @@
     "projectType": "application",
     "sourceRoot": "packages/app-next",
     "tags": [
-      "app",
-      "react"
+      "type:app",
+      "scope:react",
+      "story:composed"
     ],
     "targets": {
       "storybook": {

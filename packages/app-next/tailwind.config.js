@@ -1,9 +1,8 @@
 import { createGlobPatternsForDependencies } from '@nx/react/tailwind';
 import { join } from 'path';
-// import config from '../theme-react/src/tailwind.base.config';
 
 /** @type {import('tailwindcss').Config} */
-const c = {
+const config = {
   content: [
     join(
       __dirname,
@@ -11,7 +10,10 @@ const c = {
     ),
     ...createGlobPatternsForDependencies(__dirname),
   ],
-  // presets: [config],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
 
-export default c;
+export default config;

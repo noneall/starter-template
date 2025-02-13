@@ -11,18 +11,6 @@
     },
     {
       "path": "./packages/ui-react"
-    },
-    {
-      "path": "./packages/theme-react"
-    },
-    {
-      "path": "./packages/storybook-host"
-    },
-    {
-      "path": "./@unfolio/ui-react"
-    },
-    {
-      "path": "./packages/app-next-e2e"
     }
   ],
   "ts-node": {

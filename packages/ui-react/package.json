@@ -15,9 +15,9 @@
   },
   "nx": {
     "tags": [
-      "ui",
-      "lib",
-      "react"
+      "type:lib",
+      "scope:ui",
+      "scope:react"
     ]
   },
   "files": [

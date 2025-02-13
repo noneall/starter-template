@@ -41,7 +41,9 @@
     "eslint.config.cjs",
     "eslint.config.mjs",
     "**/*.stories.ts",
-    "**/*.stories.js"
+    "**/*.stories.js",
+    "**/*.stories.jsx",
+    "**/*.stories.tsx"
   ],
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"]
 }
